@@ -1,0 +1,27 @@
+/*전체 틀*/
+#wrap{
+    display: flex;
+    flex-direction: column;
+    width: 1180px;
+    position: relative;
+    margin: 0 auto 25px auto;
+}
+#container{
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+div#side_left{
+    width:75%;
+    height:100%;
+    background-color:yellow;
+    float:left;
+}
+#side_right{
+    width:25%;
+    height:100%;
+    background-color:red;
+    float:left;
+}
+
+
